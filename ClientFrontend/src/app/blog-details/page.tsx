@@ -45,7 +45,7 @@ const BlogDetailsPage = () => {
                       </div>
                       <div className="w-full">
                         <span className="mb-1 text-base font-medium text-body-color">
-                          By <span>{blog.author.name}</span>
+                          By <span>{blog.weare}</span>
                         </span>
                       </div>
                     </div>

@@ -1,5 +1,6 @@
 import { Blog } from "@/types/blog";
 
+
 const blogData: Blog[] = [
   {
     id: 1,
@@ -14,6 +15,7 @@ const blogData: Blog[] = [
     },
     tags: ["spiritual"],
     publishDate: "2025",
+    weare:"young",
   },
   {
     id: 2,
@@ -28,6 +30,7 @@ const blogData: Blog[] = [
     },
     tags: ["nature"],
     publishDate: "2025",
+    weare:"nes",
   },
   {
     id: 3,
@@ -42,7 +45,28 @@ const blogData: Blog[] = [
     },
     tags: ["beach"],
     publishDate: "2025",
+    weare:"old",
   },
   
 ];
 export default blogData;
+
+
+
+// import axios from "axios";
+// import { Blog } from "@/types/blog";
+
+// // Declare the variable blogData with the Blog[] type.
+// let blogData: Blog[] = [];
+
+// // Perform the GET request to fetch the blog data.
+// axios.get("/your/api/endpoint")
+//   .then((response) => {
+//     // Assuming response.data contains the array from the backend
+//     blogData = response.data;
+//   })
+//   .catch((error) => {
+//     console.error("Error fetching blog data:", error);
+//   });
+
+// export default blogData;
