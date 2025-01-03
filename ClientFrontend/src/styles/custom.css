@@ -1,0 +1,5 @@
+.aboutdiv{
+    border-radius: 10px; /* Adjust the value for more or less rounding */
+    background-color: #f5f5f5; /* Optional: Add a background color *//* Optional: Add padding inside the div */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }

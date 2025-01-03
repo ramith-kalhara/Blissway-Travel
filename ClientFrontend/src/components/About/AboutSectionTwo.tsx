@@ -11,48 +11,33 @@ const AboutSectionTwo = () => {
               data-wow-delay=".15s"
             >
               <Image
-                src="/images/about/about-image-2.svg"
+                src="/images/about/aboutus2.jpg"
                 alt="about image"
                 fill
-                className="drop-shadow-three dark:hidden dark:drop-shadow-none"
+                className="drop-shadow-three dark:hidden dark:drop-shadow-none rounded-full"
               />
               <Image
-                src="/images/about/about-image-2-dark.svg"
+                src="/images/about/aboutus2.jpg"
                 alt="about image"
                 fill
-                className="hidden drop-shadow-three dark:block dark:drop-shadow-none"
+                className="hidden drop-shadow-three dark:block dark:drop-shadow-none rounded-full"
               />
             </div>
           </div>
           <div className="w-full px-4 lg:w-1/2">
             <div className="max-w-[470px]">
-              <div className="mb-9">
-                <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Bug free code
-                </h3>
-                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-              </div>
-              <div className="mb-9">
-                <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Premier support
-                </h3>
-                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt.
-                </p>
-              </div>
-              <div className="mb-1">
-                <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Next.js
-                </h3>
-                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt
-                  consectetur adipiscing elit setim.
-                </p>
-              </div>
+              
+                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed ">
+                At Blissway Travels, we take pride in showcasing the wonders of Sri Lanka’s pristine beaches, lush tea plantations, ancient cities, and vibrant wildlife. Whether you dream of experiencing local traditions, enjoying luxurious getaways, or embarking on thrilling adventures, our expert team creates tailor-made itineraries that bring your travel aspirations to life.
+
+                With a perfect blend of local expertise and global connections, we ensure every journey is seamless, enriching, and memorable.</p>
+                
+                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">From family vacations and romantic escapes to group tours and business retreats, Blissway Travels caters to diverse travel needs with unmatched professionalism and personalized care.
+
+                Uncover the world and its wonders with Blissway Travels Pvt Ltd—where every journey begins with a promise of bliss.</p> 
+                
+              
+              
             </div>
           </div>
         </div>

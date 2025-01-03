@@ -14,8 +14,8 @@ const AboutPage = () => {
   return (
     <>
       <Breadcrumb
-        pageName="About Page"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        pageName="About Us"
+        description="Welcome to Blissway Travels Pvt Ltd, your trusted gateway to exploring the breathtaking beauty and rich culture of Sri Lanka. As a leading travel agency based in the heart of the island, we specialize in curating unforgettable journeys that showcase the charm of our paradise island and beyond."
       />
       <AboutSectionOne />
       <AboutSectionTwo />
