@@ -43,6 +43,35 @@ const blogData: Blog[] = [
     tags: ["beach"],
     publishDate: "2025",
   },
+  {
+    id: 4,
+    title: "Relax at the Stunning Beaches of Mirissa",
+    paragraph:
+      "Mirissa offers golden sands, turquoise waters, and thrilling whale-watching tours. A perfect destination for beach lovers and adventurers alike.",
+    image: "/images/blog/blog-03.jpg",
+    author: {
+      name: "Lethium Deo",
+      image: "/images/blog/author-03.png",
+      designation: "Beach Specialist",
+    },
+    tags: ["beach"],
+    publishDate: "2025",
+  },
+
+  {
+    id: 5,
+    title: "Relax at the Stunning Beaches of Mirissa",
+    paragraph:
+      "Mirissa offers golden sands, turquoise waters, and thrilling whale-watching tours. A perfect destination for beach lovers and adventurers alike.",
+    image: "/images/blog/blog-03.jpg",
+    author: {
+      name: "Lethium Deo",
+      image: "/images/blog/author-03.png",
+      designation: "Beach Specialist",
+    },
+    tags: ["beach"],
+    publishDate: "2025",
+  },
   
 ];
 export default blogData;

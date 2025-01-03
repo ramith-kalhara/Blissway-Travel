@@ -2,23 +2,23 @@
 
 import { useSearchParams } from "next/navigation"; // Import useSearchParams from next/navigation
 import Image from "next/image";
-import { Blog } from "@/types/blog"; // Assuming the Blog type is defined
-import blogData from "@/components/Blog/blogData"; // Import blog data
+import { Blog } from "@/types/blog"; 
+import blogData from "@/components/Blog/blogData"; 
+
 
 const BlogDetailsPage = () => {
-  const searchParams = useSearchParams(); // Get search parameters
-  const id = searchParams.get("id"); // Retrieve 'id' from the query string (URL)
+  const searchParams = useSearchParams(); 
+  const id = searchParams.get("id"); 
 
-  // If 'id' is not available, return an error message or fallback component
   if (!id) {
     return <p>Error: ID not found</p>;
   }
 
-  // Find the blog matching the 'id'
+  
   const blog: Blog | undefined = blogData.find((blog) => blog.id === parseInt(id));
 
   if (!blog) {
-    return <p>Error: Blog not found</p>; // If no blog is found with that id
+    return <p>Error: Blog not found</p>; 
   }
 
   return (
