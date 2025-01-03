@@ -7,7 +7,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Blog Page | Blissway Travels",
   description: "This is Blog Page for Startup Nextjs Template",
-  // other metadata
+  
 };
 
 const Blog = () => {
@@ -24,7 +24,7 @@ const Blog = () => {
             {blogData.map((blog) => (
               <div
                 key={blog.id}
-                className="w-full px-4 md:w-2/3 lg:w-1/2 xl:w-1/3"
+                className="w-full px-4 md:w-2/3 lg:w-1/2 xl:w-1/3 pb-[50px]"
               >
                 <SingleBlog blog={blog} />
               </div>
