@@ -4,7 +4,7 @@ import Link from "next/link";
 
 
 const SingleBlog = ({ blog }: { blog: Blog }) => {
-  const { id,title, image, paragraph, author, tags, publishDate } = blog;
+  const { id,title, image, paragraph_1, author, tags, publishDate } = blog;
   return (
     <>
       <div className="group relative overflow-hidden rounded-sm bg-white shadow-one duration-300 hover:shadow-two dark:bg-dark dark:hover:shadow-gray-dark">
@@ -27,7 +27,7 @@ const SingleBlog = ({ blog }: { blog: Blog }) => {
             </Link>
           </h3>
           <p className="mb-6 border-b border-body-color border-opacity-10 pb-6 text-base font-medium text-body-color dark:border-white dark:border-opacity-10">
-            {paragraph}
+            {paragraph_1}
           </p>
           <div className="flex items-center">
             <div className="mr-5 flex items-center border-r border-body-color border-opacity-10 pr-5 dark:border-white dark:border-opacity-10 xl:mr-3 xl:pr-3 2xl:mr-5 2xl:pr-5">
