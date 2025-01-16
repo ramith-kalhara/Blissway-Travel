@@ -63,7 +63,7 @@ const BlogDetailsPage = ({ params }: { params: { id: string } }) => {
                     </div>
                   </div>
                 </div>
-                <p>{blog.paragraph}</p>
+                <p>{blog.paragraph_1}</p>
                 <div className="mt-8">
                   <Image src={blog.image} alt={blog.title} width={900} height={600} />
                 </div>
